@@ -1,9 +1,15 @@
 <template>
   <div class="nav-bar">
-    <div class="logo-wrap">
-      <img :src="logo"/>
-    </div>
-    <button>Shopping cart</button>
+    <router-link to='products' class="products-link">
+
+      <div class="logo-wrap">
+        <img :src="logo"/>
+      </div>
+    </router-link>
+    <router-link to='/cart' class="cart-link">
+
+      <button>Shopping cart</button>
+    </router-link>
   </div>
 
 </template>
