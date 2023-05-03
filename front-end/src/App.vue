@@ -1,5 +1,6 @@
 <template>
  <h1>Welcome Page</h1>
+ <router-view></router-view>
 </template>
 
 <script>
