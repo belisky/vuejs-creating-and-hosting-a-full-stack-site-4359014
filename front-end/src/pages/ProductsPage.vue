@@ -17,7 +17,7 @@ export default {
   name: "ProductsPage",
   data(){
     return {
-      products:products
+      products,
     };
   }
   
